@@ -11,6 +11,10 @@ const githubQuery = {
               description
               id
               url
+              viewerSubscription
+              license {
+                spdxId
+              }
             }
           }
         }
